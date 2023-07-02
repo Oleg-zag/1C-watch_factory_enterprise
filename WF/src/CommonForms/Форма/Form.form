@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
-  <items xsi:type="form:FormField">
-    <name>АдресКартинкиВХранилище</name>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>О проекте</value>
+  </title>
+  <items xsi:type="form:Decoration">
+    <name>ОПроекте</name>
     <id>1</id>
     <title>
       <key>ru</key>
-      <value>О проекте</value>
+      <value>О проекте:</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>АдресКартинкиВХранилище</segments>
-    </dataPath>
     <extendedTooltip>
-      <name>АдресКартинкиВХранилищеРасширеннаяПодсказка</name>
+      <name>ОПроектеРасширеннаяПодсказка</name>
       <id>3</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -31,7 +32,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>АдресКартинкиВХранилищеКонтекстноеМеню</name>
+      <name>ОПроектеКонтекстноеМеню</name>
       <id>2</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -40,26 +41,18 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>PictureField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:ImageFieldExtInfo">
-      <handlers>
-        <event>Click</event>
-        <name>АдресКартинкиВХранилищеНажатие</name>
-      </handlers>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <horizontalStretch>true</horizontalStretch>
-      <verticalStretch>true</verticalStretch>
-      <pictureSize>Proportionally</pictureSize>
-      <zoomable>true</zoomable>
-      <hyperlink>true</hyperlink>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <groupHorizontalAlign>Right</groupHorizontalAlign>
+    <extInfo xsi:type="form:PictureDecorationExtInfo">
+      <picture xsi:type="core:PictureRef">
+        <picture>CommonPicture.ОПроекте</picture>
+      </picture>
+      <pictureSize>AutoSize</pictureSize>
       <fileDragMode>AsFileRef</fileDragMode>
     </extInfo>
   </items>
+  <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -79,79 +72,14 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
+  <horizontalAlign>Center</horizontalAlign>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
-  <attributes>
-    <name>АдресКартинкиВХранилище</name>
-    <title>
-      <key>ru</key>
-      <value>Заставка</value>
-    </title>
-    <id>1</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-      <for>
-        <role>Role.РаботаСДанными</role>
-      </for>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>РазмерФайлаКартинки</name>
-    <title>
-      <key>ru</key>
-      <value>Размер файла картинки</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <scale>2</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>РасширениеФайлаКартинки</name>
-    <title>
-      <key>ru</key>
-      <value>Расширение файла картинки</value>
-    </title>
-    <id>3</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>200</length>
-      </stringQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

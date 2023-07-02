@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc327787-a2a3-4ed5-9fc7-d8abeeceaea6">
+  <name>ТорговыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговый учет</value>
+  </synonym>
+</mdclass:CommonPicture>

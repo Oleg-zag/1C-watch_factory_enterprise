@@ -45,7 +45,12 @@
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.ПроизводственныйУчет</subsystems>
   <subsystems>Subsystem.ТорговыйУчет</subsystems>
-  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
+  <commonPictures>CommonPicture.БухгалтерскийУчет</commonPictures>
+  <commonPictures>CommonPicture.КадровыйУчет</commonPictures>
+  <commonPictures>CommonPicture.НСИ</commonPictures>
+  <commonPictures>CommonPicture.ОПроекте</commonPictures>
+  <commonPictures>CommonPicture.Производство</commonPictures>
+  <commonPictures>CommonPicture.ТорговыйУчет</commonPictures>
   <roles>Role.Администрирование</roles>
   <roles>Role.РаботаСДанными</roles>
   <filterCriteria>FilterCriterion.ЗаказыКлиента</filterCriteria>

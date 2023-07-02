@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="964c5b79-7c6f-471d-8912-06659fe679ae">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="964c5b79-7c6f-471d-8912-06659fe679ae">
   <name>ПроизводственныйУчет</name>
   <synonym>
     <key>ru</key>
@@ -7,5 +7,8 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Производство</picture>
+  </picture>
   <content>Document.ПроизводствоПродукции</content>
 </mdclass:Subsystem>
