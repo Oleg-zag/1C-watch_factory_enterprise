@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6810f7f4-e19c-4d16-90a9-ab5cc42b1ea2">
+  <producedTypes>
+    <objectType typeId="fada050d-9ae9-4ccf-9337-886173d05068" valueTypeId="743bdbcf-a72a-4d11-8c50-3481718b53c6"/>
+    <refType typeId="b8cc0d6e-7163-48f3-ae0c-4dc9cf5aa51b" valueTypeId="759ca758-44ad-48cf-9354-de501fc92b7d"/>
+    <selectionType typeId="57424b6c-b608-4d16-96a9-dfbda678e56b" valueTypeId="0d205acc-623a-41fa-a068-0bb4cc36363e"/>
+    <listType typeId="5c4b536d-279d-4f90-812b-3bf038eb00a6" valueTypeId="9ed883a3-0724-415a-bd7c-5a475adbdfa1"/>
+    <managerType typeId="53711ba0-d48d-4041-9e93-f0d3841e63ae" valueTypeId="dc46014c-c5d0-49d8-bada-846a70a049d6"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сотрудник</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сотрудники компании</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сотрудники.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="5d59da8e-2aae-4da6-bf5c-2391141040ae">
+    <producedTypes>
+      <objectType typeId="f78ab57e-ed98-41e7-8b1e-cea2b99d163f" valueTypeId="f0c569b6-024b-40ab-a969-9b58e8669ada"/>
+      <rowType typeId="1b9000f9-43f6-47a3-8f06-0f136643c0e2" valueTypeId="0658f2cc-0bec-432b-bb0d-a655acb7da9d"/>
+    </producedTypes>
+    <name>Образование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образование</value>
+    </synonym>
+    <attributes uuid="9ebd89a8-bfe3-4ca7-9c51-2b1529e0cd0d">
+      <name>Специальность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Специальность</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a3d6ec00-051f-4c2d-90e1-1d2880b65ace">
+      <name>ДатаНачалаОбучения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала обучения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="490b268b-b700-44aa-8a81-bf9a387c6791">
+      <name>ДатаОкончанияОбучения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания обучения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="001b51c3-679b-4153-8b1c-f8bc49584966">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

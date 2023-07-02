@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88402531-64c1-46a4-a5a9-b0911b8b2eae">
+  <producedTypes>
+    <selectionType typeId="444f52e8-9074-4220-a0ea-c5fd5182305d" valueTypeId="d3deec9d-d3fe-4c3a-a0fd-c7d5df935cbd"/>
+    <listType typeId="6841d8d1-03f6-49fc-baa3-160275852a5f" valueTypeId="9240e157-97bb-4fa2-87ef-dca3f3668dde"/>
+    <managerType typeId="c1d4e41b-c8c0-41a2-8a5a-3d59d108c5de" valueTypeId="cb010cbc-cd92-4c97-aaa0-c5e55efee5f2"/>
+  </producedTypes>
+  <name>СкладскиеНакладные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складские накладные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.РасходнаяНакладная</registeredDocuments>
+  <registeredDocuments>Document.ПриходнаяНакладная</registeredDocuments>
+  <columns uuid="46bd0ab9-0450-4d74-8a2f-e8c31f3258b6">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.РасходнаяНакладная.Attribute.ИтоговаяСумма</references>
+    <references>Document.ПриходнаяНакладная.Attribute.ИтоговаяСумма</references>
+  </columns>
+</mdclass:DocumentJournal>

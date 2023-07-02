@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce2f55df-8e4a-448b-8ccb-ba463859ad1b">
+  <producedTypes>
+    <objectType typeId="5943d9fa-d470-4aac-8299-0735f59a752e" valueTypeId="2f7d26cb-a731-4847-9f9b-3252e124afcc"/>
+    <refType typeId="537da86a-18c2-4c47-b3f0-786d7ddbc46e" valueTypeId="69560845-6674-4f22-b860-6124c82a3f67"/>
+    <selectionType typeId="d8c914d6-30ab-43b7-8972-9d810dee6d79" valueTypeId="d9a0dbc8-c94b-44d5-bcbd-5c08a4eeddf6"/>
+    <listType typeId="0f4aa423-2afd-4120-9792-4ae0cd4cb724" valueTypeId="7b6f7312-9be2-4f31-930b-dd1f2cfd9e3d"/>
+    <managerType typeId="c09f0efd-5cd5-4335-9d08-67ec8c7ab9ae" valueTypeId="1b518429-8988-45fd-9766-af2ab80b4d89"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контрагент</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Контрагент компании</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список контрагентов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Список контрагентов компании</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="7f641440-0c6e-41b5-9018-1856575b9f09">
+    <name>ВидКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид контрагента</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидКонтрагента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b131bd26-e317-4e6a-817a-255a1d8121af">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

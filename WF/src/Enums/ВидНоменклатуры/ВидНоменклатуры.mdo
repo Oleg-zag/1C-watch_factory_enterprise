@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e19d03c-3eb1-4dfd-af1a-eb8b5a563147">
+  <producedTypes>
+    <refType typeId="dcadd088-3061-4ea0-99ff-70005d30c411" valueTypeId="edd7e46e-9d5d-498d-9bb5-3502e15c0657"/>
+    <listType typeId="f2162c5e-f20d-4041-925c-44517b4947bb" valueTypeId="0ee09d6d-796a-4890-9713-aedfb029cec8"/>
+    <managerType typeId="5ff8154b-9be1-414c-bae2-93f49d207cbf" valueTypeId="6e25faa5-0d63-476e-9b6b-c2c84a7eb988"/>
+  </producedTypes>
+  <name>ВидНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </listPresentation>
+  <enumValues uuid="543e52e2-3b9f-4428-9bb2-f12d0fcfc5e7">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3fd65db6-c660-4491-ab36-af7fbd6474e8">
+    <name>РасходныйМатериал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходный материал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81a898b0-2140-4091-af0f-2179e0e32456">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77ed10aa-7233-4ac0-bb10-1aad04d71981">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9bd5e02-5dce-49e6-acd3-1a70110ce817">
+    <name>ГотоваяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовая продукция</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74c4d270-6428-45e6-a5cb-085beb8e83f1">
+  <producedTypes>
+    <listType typeId="4d63242b-5753-4ca6-8907-a188416b0337" valueTypeId="2e834c73-98b3-4654-947d-1a06ccfa3e8b"/>
+    <managerType typeId="fac3ae4e-d176-41b8-8935-797394206ada" valueTypeId="bd3fc3ab-bccf-439f-af8c-0fac45136e4c"/>
+  </producedTypes>
+  <name>ЗаказыКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы клиента</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ДоговорыСКонтрагентами</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ЗаказКлиента.Attribute.Договор</content>
+</mdclass:FilterCriterion>

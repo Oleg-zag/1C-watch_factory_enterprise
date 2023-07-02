@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c88d145-be93-4ba9-a50a-b330dffb3d7c">
+  <producedTypes>
+    <managerType typeId="02d988c3-74f6-4aa0-b2c2-023073ecedd9" valueTypeId="126a776e-a248-4191-b4d1-fc60af2cc846"/>
+    <valueManagerType typeId="9ac33325-1700-4d0a-be6a-f83fad852f68" valueTypeId="20588c9c-a2c7-4bcf-b7d3-0c8a9c513830"/>
+    <valueKeyType typeId="6da45e6a-07ed-4681-872e-aae98cb5656b" valueTypeId="13de1d1d-6175-4183-be05-c6db0b650e46"/>
+  </producedTypes>
+  <name>ИНН</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИНН</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

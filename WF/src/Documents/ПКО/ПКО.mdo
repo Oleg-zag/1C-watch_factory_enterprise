@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e08419af-7ffe-4e47-8a56-cfbfee92469c">
+  <producedTypes>
+    <objectType typeId="9dcf6ebe-082a-4b67-89e8-86d831f192d1" valueTypeId="96db724c-4c8d-4881-8148-9f976d8740f8"/>
+    <refType typeId="9448d95f-4cdf-4add-b67c-87babc6155c5" valueTypeId="5be59365-a4ba-4be1-a2e3-3e09c13d2f51"/>
+    <selectionType typeId="0c5ebb1a-2882-490c-8da4-29a00f8ade43" valueTypeId="e497e908-6ff3-48e1-a531-072caaa331ef"/>
+    <listType typeId="7d069152-cb28-450e-93ac-b27b99a9d751" valueTypeId="53919d9c-0d26-468d-8cc4-158b5cb24f4a"/>
+    <managerType typeId="0d68d37a-987a-45ba-84c6-c81ae0760ee8" valueTypeId="2a704d24-e035-4461-a57b-e477fbdb297c"/>
+  </producedTypes>
+  <name>ПКО</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПКО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПКО.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.СчетНаОплату</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Приходно-кассовый ордер</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Приходно-кассовые ордера</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccountingRegister.БухгалтерскиеПроводки</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ab5978c6-b948-49af-8441-4a1fef6cab5e">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="db16bb19-460e-4a42-895d-a8d8bcf9de69">
+    <name>ИтоговаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итоговая сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

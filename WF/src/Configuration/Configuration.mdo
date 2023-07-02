@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd374231-10d7-42d8-b39d-baea42d68f60">
+  <name>Фактория</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С:Фактория</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="be153fa4-b804-445a-9e89-2554944dafa5"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="65cfa06a-8423-4933-a2be-18196115c90b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="0ef78788-5c3e-43f8-b13c-833ac6b15c82"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="9979e7e9-2455-4ca0-aea1-4a6e10f4fcc5"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="51e7c0d8-c0f4-4bf4-b78a-f23b73caf001"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="11da476d-ed03-448a-821d-9abf30cda7b3"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="316d3e30-ed1c-4957-945f-bc6ffa1c9f49"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <splash/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
+  <languages uuid="f4055055-1238-4a40-ac4f-85a15bd4fac1">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.БухгалтерскийУчет</subsystems>
+  <subsystems>Subsystem.КадровыйУчет</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.ПроизводственныйУчет</subsystems>
+  <subsystems>Subsystem.ТорговыйУчет</subsystems>
+  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
+  <roles>Role.Администрирование</roles>
+  <roles>Role.РаботаСДанными</roles>
+  <filterCriteria>FilterCriterion.ЗаказыКлиента</filterCriteria>
+  <commonModules>CommonModule.РаботаСКонстантамиВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСФайламиКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСФайламиСервер</commonModules>
+  <commonAttributes>CommonAttribute.Склад</commonAttributes>
+  <functionalOptions>FunctionalOption.СкладскойУчет</functionalOptions>
+  <definedTypes>DefinedType.ДенежныеСредства</definedTypes>
+  <commandGroups>CommandGroup.УчетныеДанные</commandGroups>
+  <commandGroups>CommandGroup.Сервис</commandGroups>
+  <commandGroups>CommandGroup.ПроизводственныеОперации</commandGroups>
+  <commandGroups>CommandGroup.ТорговыеОперации</commandGroups>
+  <commandGroups>CommandGroup.Отчеты</commandGroups>
+  <commandGroups>CommandGroup.ПериодическиеДанные</commandGroups>
+  <commandGroups>CommandGroup.Характеристики</commandGroups>
+  <commandGroups>CommandGroup.ЗарплатныеОперации</commandGroups>
+  <commandGroups>CommandGroup.ФинансовыеОперации</commandGroups>
+  <constants>Constant.ГенеральныйДиректор</constants>
+  <constants>Constant.ИНН</constants>
+  <constants>Constant.СкладскойУчет</constants>
+  <constants>Constant.ЮридическоеНаименованиеОрганизации</constants>
+  <commonForms>CommonForm.ДанныеОрганизации</commonForms>
+  <commonForms>CommonForm.Форма</commonForms>
+  <catalogs>Catalog.ДоговорыСКонтрагентами</catalogs>
+  <catalogs>Catalog.Заставки</catalogs>
+  <catalogs>Catalog.ЗначенияХарактеристик</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.СкладыКомпании</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СписокНоменклатуры</catalogs>
+  <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.ЗаказыПоставщику</documents>
+  <documents>Document.ПКО</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.ПроизводствоПродукции</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.РасчетнаяВедомость</documents>
+  <documents>Document.СчетНаОплату</documents>
+  <documents>Document.ФиксацияПрогула</documents>
+  <documentJournals>DocumentJournal.СкладскиеНакладные</documentJournals>
+  <enums>Enum.ВидКонтрагента</enums>
+  <enums>Enum.ВидНоменклатуры</enums>
+  <enums>Enum.ПроисхождениеНоменклатуры</enums>
+  <reports>Report.ЗароботнаяПлата</reports>
+  <reports>Report.ОСВ</reports>
+  <reports>Report.ОстаткиНоменклатуры</reports>
+  <reports>Report.ОтчетПоПродажам</reports>
+  <dataProcessors>DataProcessor.ЗаполнениеПРоизводственногоКалендаря</dataProcessors>
+  <informationRegisters>InformationRegister.ОкладыСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.ПроизводственныйКалендарь</informationRegisters>
+  <informationRegisters>InformationRegister.Файлы</informationRegisters>
+  <informationRegisters>InformationRegister.ХарактеристикиНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.ПланыСчетовБухгалтерии</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.БухгалтерскиеПроводки</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ВидыРасчета</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.Зарплата</calculationRegisters>
+</mdclass:Configuration>

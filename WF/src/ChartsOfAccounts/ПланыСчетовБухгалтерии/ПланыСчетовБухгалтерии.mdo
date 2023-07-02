@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38070df0-f371-4e4e-a03d-85cd4cff8d04">
+  <producedTypes>
+    <objectType typeId="d9ee3aa8-db31-4c08-91f0-2a2c310d3e69" valueTypeId="ffa603d7-db1c-40ac-a4a1-8f518cde24b9"/>
+    <refType typeId="157e6833-5aca-49da-8293-6da8a378a79d" valueTypeId="35ee3ac6-9e3f-4bb8-82c5-cee95e008691"/>
+    <selectionType typeId="52b35a79-bdc0-4a2e-8825-d2a24a9ede66" valueTypeId="d60d9a45-f8aa-4027-ad1b-ef43b039e0a1"/>
+    <listType typeId="c1c8797f-6d96-4c02-a95f-16423dbf7a95" valueTypeId="1af16b99-d40f-49ac-ac48-d05ef9b02587"/>
+    <managerType typeId="cfa31c31-bf3d-4e40-92a9-5533e8c77fdb" valueTypeId="89a9c459-229a-428f-9549-15d3e4e9fa58"/>
+    <extDimensionTypes typeId="575ce127-e503-43e1-92d4-26686b24e984" valueTypeId="05afdaf3-5476-42df-8e69-6a58ef5aa679"/>
+    <extDimensionTypesRow typeId="2cb7bb4b-a96d-4fc8-8894-fa99f064c6f7" valueTypeId="be4de4f5-f32f-43c4-91a2-734690e5e98d"/>
+  </producedTypes>
+  <name>ПланыСчетовБухгалтерии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы счетов бухгалтерии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.ПланыСчетовБухгалтерии.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfAccounts.ПланыСчетовБухгалтерии.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>План счетов бухгалтерии</value>
+  </objectPresentation>
+  <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконто</extDimensionTypes>
+  <maxExtDimensionCount>1</maxExtDimensionCount>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="d0855ef7-c9be-4d5c-b2fd-2a9bacf37637">
+      <name>Касса</name>
+      <description>Касса</description>
+      <code>50</code>
+      <accountType>ActivePassive</accountType>
+    </items>
+    <items id="2ba95318-87e4-4d4e-9da0-2df665463626">
+      <name>Покупатели</name>
+      <description>Покупатели</description>
+      <code>62</code>
+      <accountType>ActivePassive</accountType>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Покупатель</characteristicType>
+      </extDimensionTypes>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfAccounts>

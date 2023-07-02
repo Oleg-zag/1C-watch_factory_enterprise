@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cd3ff76-f73b-4c4f-b290-84c97171f6e0">
+  <name>СкладскойУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складской учет</value>
+  </synonym>
+  <location>Constant.СкладскойУчет</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.СкладскойУчет</content>
+</mdclass:FunctionalOption>

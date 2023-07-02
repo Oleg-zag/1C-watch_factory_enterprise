@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23f49941-821e-407b-b478-acfc6b8b56ce">
+  <producedTypes>
+    <selectionType typeId="4d2dba9a-93a8-4623-9e4a-924908d52e06" valueTypeId="8a261a79-2b2c-4c49-bcd4-d7c2c69e9156"/>
+    <listType typeId="470603f1-c9f7-4e75-a079-5342634bb4e5" valueTypeId="278c6d89-32e3-46fe-b961-4ec4dd6feb78"/>
+    <managerType typeId="3809c730-12c7-4169-8fd2-041993f5b834" valueTypeId="96460f1a-b4f8-438d-b28d-5cf24fc5dd6c"/>
+    <recordSetType typeId="a84edcfb-e56b-41c1-9aa7-342308aa915b" valueTypeId="591a61c1-b6e2-4130-9704-aabc0252de2f"/>
+    <recordKeyType typeId="428e46b7-19cd-4535-84cd-0477624a91ef" valueTypeId="a73b05ea-6cba-40da-8d9f-1dd9356ae0a2"/>
+    <recordType typeId="3e2a1eb8-1683-46d6-8bec-3b77fbbecc71" valueTypeId="0b2917b2-2826-45a3-8f95-57f85643455d"/>
+    <extDimensionsType typeId="cc8311f7-8dcd-4028-aec6-1a1256db542f" valueTypeId="fdb9bb80-0818-42a9-a06f-be9f3ade2b25"/>
+  </producedTypes>
+  <name>БухгалтерскиеПроводки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерские проводки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.ПланыСчетовБухгалтерии</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="bf75799b-78d5-46f1-9962-ec03201f820a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>

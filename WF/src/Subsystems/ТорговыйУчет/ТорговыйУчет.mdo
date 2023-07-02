@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f76655bf-f162-4c65-9502-c89da97880cd">
+  <name>ТорговыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговый учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗаказыПоставщику</content>
+  <content>Document.РасходнаяНакладная</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Document.ЗаказКлиента</content>
+  <content>Catalog.ДоговорыСКонтрагентами</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.СписокНоменклатуры</content>
+  <content>Report.ОтчетПоПродажам</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>ChartOfCharacteristicTypes.ВидыХарактеристик</content>
+  <content>InformationRegister.ХарактеристикиНоменклатуры</content>
+  <content>Catalog.ЗначенияХарактеристик</content>
+  <content>AccumulationRegister.ОстаткиНоменклатуры</content>
+  <content>Report.ОстаткиНоменклатуры</content>
+  <content>DocumentJournal.СкладскиеНакладные</content>
+  <content>Catalog.СкладыКомпании</content>
+  <content>FunctionalOption.СкладскойУчет</content>
+  <content>FilterCriterion.ЗаказыКлиента</content>
+</mdclass:Subsystem>

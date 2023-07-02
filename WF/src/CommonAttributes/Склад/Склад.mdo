@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3650dab0-23ed-4373-977f-53b38d471da0">
+  <name>Склад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склад</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СкладыКомпании</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataHistory>Use</dataHistory>
+  <fillValue xsi:type="core:UndefinedValue"/>
+  <content>
+    <metadata>Document.ПроизводствоПродукции</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Document.РасходнаяНакладная</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Document.ПриходнаяНакладная</metadata>
+    <use>Use</use>
+  </content>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+  <configurationExtensionsSeparation>DontUse</configurationExtensionsSeparation>
+  <fullTextSearch>Use</fullTextSearch>
+</mdclass:CommonAttribute>
