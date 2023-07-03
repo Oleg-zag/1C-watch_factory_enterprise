@@ -24,4 +24,8 @@
 - Системы хранения версий:
     * Хранилище
     * Git
- ### Инструкции для развертывания и запуска приложения 
+ ### Инструкции для развертывания и редактирования приложения:
+ - Склонировать репозиторий в EDT в соответсвии с инструкциями https://edt.1c.ru/docs/examples/ur3-klonirovanie-udalennogo-repozitoriya
+ - Подключить проект к локальному репозиторию https://edt.1c.ru/docs/examples/ur4-podklyuchenie-proekta-k-lokalnomu-repozitoriyu/
+ - Если хотите внести изменения поместите проект под версиооный контроль https://edt.1c.ru/docs/examples/ur5-kommit-konfiguratsii/
+ - Предложите ваши изменения через публикацию вашей крнфигурации в текущем репозитории https://edt.1c.ru/docs/examples/ur6-otpravka-vetki-v-udalennyy-repozitoriy/
