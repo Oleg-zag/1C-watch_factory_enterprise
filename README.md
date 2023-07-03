@@ -12,4 +12,4 @@
  - строить производственный график
  - вести бухгалтерский учет
  - формировать отчеты по остаткам номенклатуры, продажам, ЗП и оборотносальдовую ведомость
-<img width="479" alt="1С:Watch-Factory-enterprise" src="https://user-images.githubusercontent.com/102435345/215749177-14eccfa8-3f34-44e4-a944-5ae34296410b.png">
+<img  alt="1С:Watch-Factory-enterprise" src="https://github.com/Oleg-zag/1C-watch_factory_enterprise/blob/main/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20GITHUB.jpg">
